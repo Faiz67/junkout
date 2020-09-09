@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+	margin: 0%;
+
+}
+.nav-container{
+	font-family: "Roboto", sans-serif;
+	background-color: #4CAF50;
+	color: #FFFFFF;
+	padding: 20px;
+}
+#logo{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav li{
+		display: inline-block;
+		list-style: none;
+		text-decoration: none;
+		padding: 0px 4px ;
+}
+nav>ul{
+	display:inline-block;
+	margin:0%;
+	float:right;
+}
+nav li a{
+			text-transform: uppercase;
+			text-decoration: none;
+			color:#FFFFFF;
+		}
+nav ul p{
+	display: none;
+}
+/*Mobile Navigation*/
